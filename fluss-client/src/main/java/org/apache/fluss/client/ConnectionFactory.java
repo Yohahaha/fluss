@@ -34,7 +34,6 @@ import org.apache.fluss.metrics.registry.MetricRegistry;
 @PublicEvolving
 public class ConnectionFactory {
 
-    // CI split probe: Shared client changes should trigger both CI workflows.
     private ConnectionFactory() {}
 
     /**

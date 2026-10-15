@@ -34,7 +34,6 @@ import java.util.concurrent.ExecutionException
 
 import scala.collection.JavaConverters._
 
-// CI split probe: Spark-only changes should trigger the Spark workflow.
 class SparkCatalog
   extends TableCatalog
   with SupportsFlussNamespaces
